@@ -13,6 +13,7 @@
 		181F4CDE1DE1D9820032B65F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181F4CDC1DE1D9820032B65F /* Main.storyboard */; };
 		181F4CE01DE1D9820032B65F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181F4CDF1DE1D9820032B65F /* Assets.xcassets */; };
 		181F4CE31DE1D9820032B65F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181F4CE11DE1D9820032B65F /* LaunchScreen.storyboard */; };
+		181F4CEE1DE1DAE70032B65F /* SJLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 181F4CED1DE1DAE70032B65F /* SJLocationManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		181F4CDF1DE1D9820032B65F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		181F4CE21DE1D9820032B65F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		181F4CE41DE1D9820032B65F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181F4CEC1DE1DAE70032B65F /* SJLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJLocationManager.h; sourceTree = "<group>"; };
+		181F4CED1DE1DAE70032B65F /* SJLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJLocationManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,7 @@
 		181F4CC71DE1D9820032B65F = {
 			isa = PBXGroup;
 			children = (
+				181F4CEA1DE1DAE70032B65F /* Vendor */,
 				181F4CD21DE1D9820032B65F /* SJLocationManager */,
 				181F4CD11DE1D9820032B65F /* Products */,
 			);
@@ -77,6 +81,23 @@
 				181F4CD41DE1D9820032B65F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		181F4CEA1DE1DAE70032B65F /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				181F4CEB1DE1DAE70032B65F /* SJLocationManager */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		181F4CEB1DE1DAE70032B65F /* SJLocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				181F4CEC1DE1DAE70032B65F /* SJLocationManager.h */,
+				181F4CED1DE1DAE70032B65F /* SJLocationManager.m */,
+			);
+			path = SJLocationManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +175,7 @@
 				181F4CDB1DE1D9820032B65F /* ViewController.m in Sources */,
 				181F4CD81DE1D9820032B65F /* AppDelegate.m in Sources */,
 				181F4CD51DE1D9820032B65F /* main.m in Sources */,
+				181F4CEE1DE1DAE70032B65F /* SJLocationManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +332,7 @@
 				181F4CE91DE1D9820032B65F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
